@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   //Bollean =1 bit - 0 1 -true false
-
+  v1++;
   boolean b=v1>20;
   if(b){
     Serial.println(v1);
