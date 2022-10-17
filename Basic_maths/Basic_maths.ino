@@ -1,9 +1,14 @@
+int v1 =15;
+int v2=123;
+
 void setup() {
-  // put your setup code here, to run once:
+  Serial.begin(9600);
+  int v3=v1+v2;
+  Serial.println(v3);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
 
 }
